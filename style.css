@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color:black;
+    font-family: "Nono Sans",sans-serif;
+}
+
+.boxHeader{
+    width: 100%;
+    background-color: rgba(17, 2, 24, 0.884);
+}
+
+.contentHeader{
+    height: 50px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav,a{
+    text-decoration: none;
+    color: white;
+}
+nav,a:hover{
+    color: purple;
+}
+/* ------------------------- */
+
+section{
+    margin-top: 6em;
+}
+
+.boxRelogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons{
+    color: white;
+    height: 24em;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.Config-Relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(128, 0, 128, 0.267);
+    border-radius: 14px;
+    box-shadow: inset 0 0 30px;
+}
+
+#horas{
+    font-size: 10em;
+    border: 4px solid rgb(174, 0, 255);
+    border-radius: 10px;
+    color: purple;
+    padding: 15px;
+    box-shadow: inset 0 0 30px;
+}
+
+#minutos{
+    font-size: 10em;
+    border: 4px solid rgb(174, 0, 255);
+    border-radius: 10px;
+    color: purple;
+    padding: 15px;
+    box-shadow: inset 0 0 30px;
+}
+#segundos{
+    font-size: 10em;
+    border: 4px solid rgb(174, 0, 255);
+    border-radius: 10px;
+    color: purple;
+    padding: 15px;
+    box-shadow: inset 0 0 30px;
+}
+
+.separation{
+    font-size: 100px;
+    color: white
+}
+
+.configEspaço{
+    padding: 20px;
+}
+
+.autor{
+    position: relative;
+    bottom: 2em;
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.link:hover{
+    font-weight: bold;
+    color: purple;
+}
+
