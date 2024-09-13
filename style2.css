@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: black;
+  font-family: "Nono Sans", sans-serif;
+}
+
+.boxHeader {
+  width: 100%;
+  background-color: rgba(17, 2, 24, 0.884);
+}
+
+.contentHeader {
+  height: 50px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav,a {
+  text-decoration: none;
+  color: white;
+}
+nav,a:hover {
+  color: purple;
+}
+
+.buttonConfirm {
+  font-weight: bolder;
+  border: none;
+  width: 100px;
+  height: 50px;
+  color: white;
+  border-radius: 5px;
+  background-color: green;
+  margin-right: 15px;
+}
+
+.buttonStop {
+  font-weight: bolder;
+  border: none;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.buttonClear {
+  font-weight: bolder;
+  border: none;
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: gray;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.configsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10em;
+}
+
+.BoxCrono {
+  border: 5px solid rgba(128, 0, 128, 0.267);
+  width: 25em;
+  height: 17em;
+  border-radius: 14px;
+  color: white;
+}
+
+.boxNumbers{
+    position: relative;
+    top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 5em;
+}
+
+.autor {
+  position: relative;
+  top: 2em;
+  font-size: 15px;
+  font-style: italic;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+    font-size: 3em;
+}
+.crono{
+    padding: 5px;
+}
